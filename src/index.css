@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: black !important;
+}
+
+.ant-input-password input::placeholder {
+  color: rgb(160, 160, 160) !important;
+}
+
+.ant-input-password-icon svg {
+  fill: white !important; 
+}
+
+.ant-alert .anticon-close-circle {
+  color: white;
+}
+.ant-alert-close-icon svg {
+  color: white;
+}
+
+.ant-dropdown-menu-item{
+  background-color: black !important;
+  color: white !important;
+  border-color: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+
+:where(.css-dev-only-do-not-override-77tu7h).ant-alert-info .ant-alert-icon {
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: rgb(160, 160, 160) !important;
+  opacity: 1 !important; 
+}
+
+
